@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Railway21</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+    </head>
+
+    <body>
+        <h1>Công ty Hoa tươi Nhân Ái</h1>
+      <div class="container">
+        <div id="side"></div>
+        <div class="container" id="main">
+           <div id="flowers">
+               <img id="rose1" src="rose.png">
+           </div>
+           <div id="content">
+               <ol>
+                   <li>
+                       <span>Giới thiệu</span>
+                       <ul >
+                           <li>Thành lập ngày 25/05/2007</li>
+                           <li>Chuyên cung cấp các loại hoa tươi</li>
+                           <li>Có trên 20 cửa hàng bán lẻ tại TP HCM</li>
+                           <li>Nhận kết giỏ hoa theo yêu cầu của khách hàng</li>
+                       </ul>
+                    </li>
+                    <hr style="margin-left: 0;">
+                   <li>
+                       <span>Liên hệ</span>
+                       <ul >
+                        <li>Điện thoại: 987654321</li>
+                        <li>Địa chỉ: 227 Nguyễn Văn Cừ</li>
+                    </ul>
+                    </li>
+               </ol>
+               <p>
+                <span id="copy">© Copyright:</span> <b>Trung Tâm Tin Học - Đại Học Khoa Học Tự Nhiên TP.HCM</b>
+               </p>
+           </div>
+       </div>
+       <div id="side"></div>
+      </div>
+    </body>
+
+    <script>
+        var i = 0;
+        var txt = 'Anh đã yêu em rất lâu rồi'; /* The text */
+        var speed = 60; /* The speed/duration of the effect in milliseconds */
+
+        function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+        }
+    </script>
+</html>

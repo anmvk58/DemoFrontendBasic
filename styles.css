@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: #ff369a;
+}
+
+.container {
+    display: flex;
+}
+
+#side {
+    flex: 1;
+}
+
+#main {
+    flex: 2;
+}
+
+#flowers {
+    flex: 1;
+}
+
+#rose1 {
+    height: 100%;
+    float: right;
+}
+
+#content {
+    flex: 3;
+    /* background-color: burlywood; */
+}
+
+ol li span{
+    background-color: #ff369a;
+    display: inline;
+}
+
+b {
+    color: blue;
+}
+
+#copy {
+    color: plum;
+}
